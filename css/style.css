@@ -67,10 +67,6 @@ img {
 
 /* вторичный цвет фона (тёмный) #2F303A; */
 
-.page-header {
-  border: 1px solid #ececec;
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -93,6 +89,10 @@ img {
   color: var(--accent-color);
 }
 
+.logo--style {
+  color: #ffffff;
+}
+
 .navigation-list a {
   color: var(--title-text-color);
 
@@ -107,7 +107,7 @@ img {
   position: relative;
 }
 
-.navigation-list__link.current::after {
+.navigation-list__link--current::after {
   content: '';
   width: 100%;
   height: 4px;
