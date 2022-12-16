@@ -342,7 +342,7 @@
             <div class="footer__box">
                 <a href="index.html" class="logo-color"><span class="logo-style">Web</span>Studio</a>
                 <address>
-                    <ul class="footer-list">
+                    <ul class="footer__list">
                         <li class="footer__item"><a href="" class="footer__adress">м. Київ, пр-т Лесі Українки,
                                 26</a>
                         </li>
@@ -356,44 +356,44 @@
             </div>
             <div class="footer__social">
                 <p class="footer__text">Приєднуйтесь</p>
-                <ul class="footer-soc-list">
-                    <li class="footer-icon-desc">
-                        <a href="#" class="footer-soc-link-link">
-                            <svg class="icon-feature-team" width="20px" height="20px">
+                <ul class="footer__soc-list">
+                    <li class="footer__soc-item">
+                        <a href="#" class="footer__soc-link">
+                            <svg class="footer__svg" width="20px" height="20px">
                                 <use href="./images/icons.svg/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-desc">
-                        <a href="#" class="footer-soc-link-link">
-                            <svg class="icon-feature-team" width="20px" height="20px">
+                    <li class="footer__soc-item">
+                        <a href="#" class="footer__soc-link">
+                            <svg class="footer__svg" width="20px" height="20px">
                                 <use href="./images/icons.svg/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-desc">
-                        <a href="#" class="footer-soc-link-link">
-                            <svg class="icon-feature-team" width="20px" height="20px">
+                    <li class="footer__soc-item">
+                        <a href="#" class="footer__soc-link">
+                            <svg class="footer__svg" width="20px" height="20px">
                                 <use href="./images/icons.svg/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-desc">
-                        <a href="#" class="footer-soc-link-link">
-                            <svg class="icon-feature-team" width="20px" height="20px">
+                    <li class="footer__soc-item">
+                        <a href="#" class="footer__soc-link">
+                            <svg class="footer__svg" width="20px" height="20px">
                                 <use href="./images/icons.svg/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="footer-info">
-                <form class="footer-form">
-                    <label for="subscribe" class="subscribe-text">Підпишіться на розсилку</label>
-                    <div class="form-button">
-                        <input type="text" name="subscribe" id="subscribe" placeholder="E-mail" class="subscribe-input">
-                        <button type="submit" class="subscribe-button">Підписатися
-                            <svg width="24" height="24" class="footer-form-svg">
+            <div class="footer__info">
+                <form class="footer__form">
+                    <label for="subscribe" class="footer__form-text">Підпишіться на розсилку</label>
+                    <div class="form">
+                        <input type="text" name="subscribe" id="subscribe" placeholder="E-mail" class="form__input">
+                        <button type="submit" class="form__button">Підписатися
+                            <svg width="24" height="24" class="form__svg">
                                 <use href="./images/icons.svg/icons.svg#icon-telegram"></use>
                             </svg>
                         </button>
@@ -404,60 +404,60 @@
     </footer>
     <div class="modal-backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-                <svg class="modal-close-icon" width="10" height="10">
+            <button type="button" class="modal__close" data-modal-close>
+                <svg class="modal__svg-icon" width="10" height="10">
                     <use href="./images/icons.svg/icons.svg#icon-close2"></use>
                 </svg>
             </button>
-            <div class="modal-content">
-                <p class="modal-head">Залиште свої дані, ми вам передзвонимо</p>
+            <div class="modal__content">
+                <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
             </div>
             <form>
-                <div class="modal-input-group">
-                    <label for="name"><span class="info-text">Ім'я</span></label>
-                    <div class="modal-input-wrapper">
-                        <input class="modal-input" type="text" placeholder="" name="name" required id="name">
-                        <svg class="icon-modal" width="12" height="12">
+                <div class="modal__input-group">
+                    <label for="name"><span class="modal__label-text">Ім'я</span></label>
+                    <div class="modal__input-wrapper">
+                        <input class="modal__input" type="text" placeholder="" name="name" required id="name">
+                        <svg class="modal__svg" width="12" height="12">
                             <use href="./images/icons.svg/icons.svg#icon-person"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-input-group">
-                    <label for="telepfone"><span class="info-text">Телефон</span></label>
-                    <div class="modal-input-wrapper">
-                        <input class="modal-input" type="tel" placeholder="" name="tel" required id="telepfone"
+                <div class="modal__input-group">
+                    <label for="telepfone"><span class="modal__label-text">Телефон</span></label>
+                    <div class="modal__input-wrapper">
+                        <input class="modal__input" type="tel" placeholder="" name="tel" required id="telepfone"
                             pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}">
-                        <svg class="icon-modal" width="13" height="13">
+                        <svg class="modal__svg" width="13" height="13">
                             <use href="./images/icons.svg/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-input-group">
-                    <label for="email"><span class="info-text">Пошта</span></label>
-                    <div class="modal-input-wrapper">
-                        <input class="modal-input" type="email" placeholder="" name="email" required id="email">
-                        <svg class="icon-modal" width="15" height="12">
+                <div class="modal__input-group">
+                    <label for="email"><span class="modal__label-text">Пошта</span></label>
+                    <div class="modal__input-wrapper">
+                        <input class="modal__input" type="email" placeholder="" name="email" required id="email">
+                        <svg class="modal__svg" width="15" height="12">
                             <use href="./images/icons.svg/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-input-group">
-                    <label><span class="info-text">Коментар</span></label>
-                    <textarea name="comment" id="comment" class="comment-modal" placeholder="Введіть текст"></textarea>
+                <div class="modal__input-group">
+                    <label><span class="modal__label-text">Коментар</span></label>
+                    <textarea name="comment" id="comment" class="modal__comment" placeholder="Введіть текст"></textarea>
                 </div>
-                <div class="checkbox">
+                <div class="modal__checkbox">
                     <input type="checkbox" name="politic" value="politic" id="politic"
-                        class="input-check visually-hidden" required>
-                    <label class="checkbox-text" for="politic"><span class="span-label">
+                        class="modal__input-check visually-hidden" required>
+                    <label class="modal__checkbox-text" for="politic"><span class="span-label">
                             <svg width="11" height="8">
                                 <use href="./images/icons.svg/icons.svg#icon-check2"></use>
                             </svg>
                         </span> Погоджуюся з розсилкою
                         та приймаю
-                        <a class="modal-href-span" href="#">Умови договору</a>
+                        <a class="modal__link" href="#">Умови договору</a>
                     </label>
                 </div>
-                <button class="modal-button" type="submit">Відправити</button>
+                <button class="modal__button" type="submit">Відправити</button>
             </form>
         </div>
     </div>
