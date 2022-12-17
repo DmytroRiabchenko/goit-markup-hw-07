@@ -174,49 +174,6 @@ body {
   margin-top: 10px;
 }
 
-/* вторичный основоного текста #212121 */
-/* основной цвет текста #757575; */
-/*акцент #2196F3 */
-/* цвет фона #F5F5F5; */
-/* шапка -  белый #FFFFFF; */
-/* вторичный (наша команда) #F5F4FA */
-/* вторичный цвет фона (тёмный) #2F303A; */
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
-/*Logo*/
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
-.logo-style {
-  color: #ffffff;
-  color: var(--accent-color);
-}
-
-.logo-color {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-
-/*Навигация*/
 .navigation-list__link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -272,6 +229,49 @@ body {
   color: var(--accent-color);
 }
 
+/* вторичный основоного текста #212121 */
+/* основной цвет текста #757575; */
+/*акцент #2196F3 */
+/* цвет фона #F5F5F5; */
+/* шапка -  белый #FFFFFF; */
+/* вторичный (наша команда) #F5F4FA */
+/* вторичный цвет фона (тёмный) #2F303A; */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+/*Logo*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-style {
+  color: #ffffff;
+  color: var(--accent-color);
+}
+
+.logo-color {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/*Навигация*/
 /*Хедер*/
 /* Секция герой */
 /* Иконки Переваг */
