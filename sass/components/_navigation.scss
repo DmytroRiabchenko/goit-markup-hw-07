@@ -30,7 +30,7 @@
 
 .navigation-list__link:hover,
 .navigation-list__link:focus,
-.navigation-list__link:active {
+.navigation-list__link--current {
   color: var(--accent-color);
 }
 
@@ -50,8 +50,4 @@
 
 .navigation-list__list {
   cursor: pointer;
-}
-
-.navigation-list__link.current {
-  color: var(--accent-color);
 }
