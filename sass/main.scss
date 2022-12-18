@@ -42,27 +42,19 @@
   display: flex;
   align-items: center;
 
-  color: #212121;
-}
-
-.logo-style {
-  color: #ffffff;
   color: var(--accent-color);
+
+  &__style--black {
+    color: #000000;
+  }
+  &__style--white {
+    color: #ffffff;
+  }
 }
 
-.logo-color {
-  font-family: Raleway;
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  margin-bottom: 20px;
-
-  display: inline-block;
-
-  color: #ffffff;
-}
+/*.logo__style {
+  color: #000000;
+}*/
 
 /*Навигация*/
 
