@@ -222,6 +222,43 @@ body {
   cursor: pointer;
 }
 
+.about {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__item {
+  margin-right: 30px;
+  position: relative;
+}
+.about__item:nth-child(3n) {
+  margin-right: 0;
+}
+.about__img {
+  position: absolute;
+  bottom: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  padding: 27px;
+}
+
 /*.about {
   color: var(--title-text-color);
 
@@ -274,43 +311,6 @@ body {
   padding-top: 0;
 }
 */
-.about {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.about__list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.about__item {
-  margin-right: 30px;
-  position: relative;
-}
-.about__item:nth-child(3n) {
-  margin-right: 0;
-}
-.about__img {
-  position: absolute;
-  bottom: 0;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-  width: 370px;
-  height: 70px;
-  padding: 27px;
-}
-
 .section--no-padding {
   padding-top: 0;
 }
@@ -587,7 +587,6 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .button-items__button {
   color: var(--title-text-color);
   background: var(--backgraund-section);
@@ -602,20 +601,30 @@ body {
   padding: 6px 22px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-items__btn :hover,
-.button-items__btn :focus {
+.button-items__btn :hover, .button-items__btn :focus {
   color: var(--background-body);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .button-items__btn {
   margin-right: 8px;
 }
-
 .button-items__btn:last-child {
   margin-right: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio {
@@ -685,20 +694,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .portfolio__text {
@@ -954,14 +949,6 @@ label.modal__checkbox-text {
   pointer-events: none;
 }
 
-/* вторичный основоного текста #212121 */
-/* основной цвет текста #757575; */
-/*акцент #2196F3 */
-/* цвет фона #F5F5F5; */
-/* шапка -  белый #FFFFFF; */
-/* вторичный (наша команда) #F5F4FA */
-/* вторичный цвет фона (тёмный) #2F303A; */
-/*Logo*/
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -977,8 +964,14 @@ label.modal__checkbox-text {
 }
 .logo__style--white {
   color: #ffffff;
-}
-
+} /* вторичный основоного текста #212121 */
+/* основной цвет текста #757575; */
+/*акцент #2196F3 */
+/* цвет фона #F5F5F5; */
+/* шапка -  белый #FFFFFF; */
+/* вторичный (наша команда) #F5F4FA */
+/* вторичный цвет фона (тёмный) #2F303A; */
+/*Logo*/
 /*.logo__style {
   color: #000000;
 }*/

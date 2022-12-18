@@ -2,10 +2,9 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-
-.social__item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social__link {
@@ -20,13 +19,12 @@
   color: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 
 .social__svg {
   fill: currentColor;
-}
-
-.social__link:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }

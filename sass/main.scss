@@ -14,6 +14,7 @@
 @import './components/portfolio-button';
 @import './components/portfolio-thumb';
 @import './components/modal';
+@import './components/logo';
 
 /* вторичный основоного текста #212121 */
 
@@ -30,31 +31,6 @@
 /* вторичный цвет фона (тёмный) #2F303A; */
 
 /*Logo*/
-
-.logo {
-  font-family: Raleway;
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-
-  display: flex;
-  align-items: center;
-
-  color: var(--accent-color);
-
-  &__style--black {
-    color: #000000;
-  }
-  &__style--white {
-    color: #ffffff;
-  }
-}
-
-/*.logo__style {
-  color: #000000;
-}*/
 
 /*Навигация*/
 
