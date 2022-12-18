@@ -228,7 +228,7 @@ label.modal__checkbox-text {
   background-color: var(--accent-color);
 }*/
 
-.span-label {
+.modal__span-label {
   width: 16px;
   height: 16px;
   border: 2px solid var(--title-text-color);
@@ -240,7 +240,7 @@ label.modal__checkbox-text {
   cursor: pointer;
 }
 
-.span-label svg {
+.modal__span-label svg {
   fill: transparent;
 }
 
