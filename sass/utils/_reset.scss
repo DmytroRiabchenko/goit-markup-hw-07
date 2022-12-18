@@ -28,3 +28,12 @@ img {
 .section--nopadding {
   padding-bottom: 0;
 }
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
