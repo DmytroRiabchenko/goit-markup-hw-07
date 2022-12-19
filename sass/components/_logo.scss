@@ -17,8 +17,16 @@
   &__style--white {
     color: #ffffff;
   }
-}
+  &__color {
+    font-family: Raleway;
 
-.logo-color {
-  margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 }
